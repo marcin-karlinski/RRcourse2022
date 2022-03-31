@@ -15,6 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Friends is an American television sitcom created by _David Crane_ and _Marta Kauffman_, which aired on NBC from September 22, 1994, to May 6, 2004, lasting ten seasons. With an ensemble cast starring _Jennifer Aniston_, _Courteney Cox_, _Lisa Kudrow_, _Matt LeBlanc_, _Matthew Perry_ and _David Schwimmer_, the show revolves around six friends in their 20s and 30s who live in Manhattan, New York City. 
 
-
+![](https://www.terazmuzyka.pl/wp-content/uploads/2021/05/friends-scaled-1.jpg)
 
 
