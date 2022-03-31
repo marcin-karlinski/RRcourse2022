@@ -17,4 +17,208 @@ Friends is an American television sitcom created by _David Crane_ and _Marta Kau
 
 ![](https://www.terazmuzyka.pl/wp-content/uploads/2021/05/friends-scaled-1.jpg)
 
+## How popular is it?
 
+Friends consistently ranked within the top ten of the final television season ratings. *Rank* refers to how well Friends rated compared to other television series that aired during primetime hours of the corresponding television season. It is shown in relation to the total number of series airing on the then-six major English-language networks in a given season. *Viewers* refers to the average number of viewers for all original episodes, broadcast during the television season in the series's regular timeslot. The *season premiere* is the date that the first episode of the season aired, and the *season finale* is the date that the final episode of the season aired. 
+
+So far, Friends has been the last sitcom to reach the no. 1 spot on television, as its successors were _CSI: Crime Scene Investigation_, _American Idol_, _NBC Sunday Night Football_, and _NCIS_. Following the September 11 attacks, ratings increased 17\% over the previous season.
+
+<table class="wikitable plainrowheaders" style="text-align:center">
+<caption>Ratings table
+</caption>
+<tbody><tr>
+<th scope="col" style="padding:0 8px;" rowspan="2">Season
+</th>
+<th scope="col" style="padding:0 8px;" rowspan="2">Timeslot
+</th>
+<th scope="col" style="padding:0 8px;" rowspan="2">Season premiere
+</th>
+<th scope="col" style="padding:0 8px;" rowspan="2">Season finale
+</th>
+<th scope="col" style="padding:0 8px;" rowspan="2">TV season
+</th>
+<th scope="col" style="padding:0 8px;" rowspan="2">Rank
+</th>
+<th scope="col" style="padding:0 8px;" rowspan="2">Viewers<br>(in millions)
+</th>
+<th scope="col" style="padding:0 8px;" colspan="2">Most-watched episode
+</th></tr>
+<tr>
+<th scope="col" style="padding:0 8px;">Title
+</th>
+<th scope="col" style="padding:0 8px;">Viewers<br>(in millions)
+</th></tr>
+<tr>
+<td scope="row"><a href="/wiki/Friends_(season_1)" title="Friends (season 1)">1</a>
+</td>
+<td>Thursday 8:30&nbsp;pm <br> <small>(1–16)</small> <br> Thursday 9:30&nbsp;pm <br> <small>(17–24)</small>
+</td>
+<td>September 22, 1994
+</td>
+<td>May 18, 1995
+</td>
+<td><a href="/wiki/1994%E2%80%9395_United_States_network_television_schedule" title="1994–95 United States network television schedule">1994–95</a>
+</td>
+<td><a href="/wiki/Top-rated_United_States_television_programs_of_1994%E2%80%9395" title="Top-rated United States television programs of 1994–95">8</a>
+</td>
+<td>24.3<sup id="cite_ref-RatingsBySeason_105-1" class="reference"><a href="#cite_note-RatingsBySeason-105">[105]</a></sup>
+</td>
+<td>"<a href="/wiki/The_One_Where_Rachel_Finds_Out" title="The One Where Rachel Finds Out">The One Where Rachel Finds Out</a>"
+</td>
+<td>31.3<sup id="cite_ref-BuzzFeed_106-0" class="reference"><a href="#cite_note-BuzzFeed-106">[106]</a></sup>
+</td></tr>
+<tr>
+<td scope="row"><a href="/wiki/Friends_(season_2)" title="Friends (season 2)">2</a>
+</td>
+<td rowspan="9">Thursday 8:00&nbsp;pm
+</td>
+<td>September 21, 1995
+</td>
+<td>May 16, 1996
+</td>
+<td><a href="/wiki/1995%E2%80%9396_United_States_network_television_schedule" title="1995–96 United States network television schedule">1995–96</a>
+</td>
+<td><a href="/wiki/Top-rated_United_States_television_programs_of_1995%E2%80%9396" title="Top-rated United States television programs of 1995–96">3</a>
+</td>
+<td>30<sup id="cite_ref-RatingsBySeason_105-2" class="reference"><a href="#cite_note-RatingsBySeason-105">[105]</a></sup>
+</td>
+<td>"<a href="/wiki/The_One_After_the_Superbowl" title="The One After the Superbowl">The One After the Superbowl</a>"
+</td>
+<td>52.9<sup id="cite_ref-BuzzFeed_106-1" class="reference"><a href="#cite_note-BuzzFeed-106">[106]</a></sup>
+</td></tr>
+<tr>
+<td scope="row"><a href="/wiki/Friends_(season_3)" title="Friends (season 3)">3</a>
+</td>
+<td>September 19, 1996
+</td>
+<td>May 15, 1997
+</td>
+<td><a href="/wiki/1996%E2%80%9397_United_States_network_television_schedule" title="1996–97 United States network television schedule">1996–97</a>
+</td>
+<td><a href="/wiki/Top-rated_United_States_television_programs_of_1996%E2%80%9397" title="Top-rated United States television programs of 1996–97">4</a>
+</td>
+<td>24.9<sup id="cite_ref-RatingsBySeason_105-3" class="reference"><a href="#cite_note-RatingsBySeason-105">[105]</a></sup>
+</td>
+<td>"<a href="/wiki/The_One_Where_Chandler_Can%27t_Remember_Which_Sister" class="mw-redirect" title="The One Where Chandler Can't Remember Which Sister">The One Where Chandler Can't Remember Which Sister</a>"
+</td>
+<td>29.8<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2020)">citation needed</span></a></i>]</sup>
+</td></tr>
+<tr>
+<td scope="row"><a href="/wiki/Friends_(season_4)" title="Friends (season 4)">4</a>
+</td>
+<td>September 25, 1997
+</td>
+<td>May 7, 1998
+</td>
+<td><a href="/wiki/1997%E2%80%9398_United_States_network_television_schedule" title="1997–98 United States network television schedule">1997–98</a>
+</td>
+<td><a href="/wiki/Top-rated_United_States_television_programs_of_1997%E2%80%9398" title="Top-rated United States television programs of 1997–98">4</a>
+</td>
+<td>24.0<sup id="cite_ref-RatingsBySeason_105-4" class="reference"><a href="#cite_note-RatingsBySeason-105">[105]</a></sup>
+</td>
+<td>"<a href="/wiki/The_One_with_Ross%27s_Wedding" title="The One with Ross's Wedding">The One with Ross's Wedding</a>"
+</td>
+<td>31.6<sup id="cite_ref-BuzzFeed_106-2" class="reference"><a href="#cite_note-BuzzFeed-106">[106]</a></sup>
+</td></tr>
+<tr>
+<td scope="row"><a href="/wiki/Friends_(season_5)" title="Friends (season 5)">5</a>
+</td>
+<td>September 24, 1998
+</td>
+<td>May 20, 1999
+</td>
+<td><a href="/wiki/1998%E2%80%9399_United_States_network_television_schedule" title="1998–99 United States network television schedule">1998–99</a>
+</td>
+<td><a href="/wiki/Top-rated_United_States_television_programs_of_1998%E2%80%9399" title="Top-rated United States television programs of 1998–99">2</a>
+</td>
+<td>23.5<sup id="cite_ref-RatingsBySeason_105-5" class="reference"><a href="#cite_note-RatingsBySeason-105">[105]</a></sup>
+</td>
+<td>"<a href="/wiki/The_One_After_Ross_Says_Rachel" title="The One After Ross Says Rachel">The One After Ross Says Rachel</a>"
+</td>
+<td>30.9<sup id="cite_ref-BuzzFeed_106-3" class="reference"><a href="#cite_note-BuzzFeed-106">[106]</a></sup>
+</td></tr>
+<tr>
+<td scope="row"><a href="/wiki/Friends_(season_6)" title="Friends (season 6)">6</a>
+</td>
+<td>September 23, 1999
+</td>
+<td>May 18, 2000
+</td>
+<td><a href="/wiki/1999%E2%80%932000_United_States_network_television_schedule" title="1999–2000 United States network television schedule">1999–2000</a>
+</td>
+<td><a href="/wiki/Top-rated_United_States_television_programs_of_1999%E2%80%932000" title="Top-rated United States television programs of 1999–2000">5</a>
+</td>
+<td>20.7<sup id="cite_ref-RatingsBySeason_105-6" class="reference"><a href="#cite_note-RatingsBySeason-105">[105]</a></sup>
+</td>
+<td>"<a href="/wiki/The_One_with_the_Proposal" title="The One with the Proposal">The One with the Proposal</a>"
+</td>
+<td>30.7<sup id="cite_ref-BuzzFeed_106-4" class="reference"><a href="#cite_note-BuzzFeed-106">[106]</a></sup>
+</td></tr>
+<tr>
+<td scope="row"><a href="/wiki/Friends_(season_7)" title="Friends (season 7)">7</a>
+</td>
+<td>October 12, 2000
+</td>
+<td>May 17, 2001
+</td>
+<td><a href="/wiki/2000%E2%80%9301_United_States_network_television_schedule" title="2000–01 United States network television schedule">2000–01</a>
+</td>
+<td><a href="/wiki/Top-rated_United_States_television_programs_of_2000%E2%80%9301" title="Top-rated United States television programs of 2000–01">5</a>
+</td>
+<td>20.2<sup id="cite_ref-RatingsBySeason_105-7" class="reference"><a href="#cite_note-RatingsBySeason-105">[105]</a></sup>
+</td>
+<td>"<a href="/wiki/The_One_with_Monica_and_Chandler%27s_Wedding" title="The One with Monica and Chandler's Wedding">The One with Monica and Chandler's Wedding</a>"
+</td>
+<td>30.1<sup id="cite_ref-BuzzFeed_106-5" class="reference"><a href="#cite_note-BuzzFeed-106">[106]</a></sup>
+</td></tr>
+<tr>
+<td scope="row"><a href="/wiki/Friends_(season_8)" title="Friends (season 8)">8</a>
+</td>
+<td>September 27, 2001
+</td>
+<td>May 16, 2002
+</td>
+<td><a href="/wiki/2001%E2%80%9302_United_States_network_television_schedule" title="2001–02 United States network television schedule">2001–02</a>
+</td>
+<td><a href="/wiki/Top-rated_United_States_television_programs_of_2001%E2%80%9302" title="Top-rated United States television programs of 2001–02">1</a>
+</td>
+<td>24.5<sup id="cite_ref-RatingsBySeason_105-8" class="reference"><a href="#cite_note-RatingsBySeason-105">[105]</a></sup>
+</td>
+<td>"<a href="/wiki/The_One_Where_Rachel_Has_a_Baby" class="mw-redirect" title="The One Where Rachel Has a Baby">The One Where Rachel Has a Baby</a>"
+</td>
+<td>34.9<sup id="cite_ref-BuzzFeed_106-6" class="reference"><a href="#cite_note-BuzzFeed-106">[106]</a></sup>
+</td></tr>
+<tr>
+<td scope="row"><a href="/wiki/Friends_(season_9)" title="Friends (season 9)">9</a>
+</td>
+<td>September 26, 2002
+</td>
+<td>May 15, 2003
+</td>
+<td><a href="/wiki/2002%E2%80%9303_United_States_network_television_schedule" title="2002–03 United States network television schedule">2002–03</a>
+</td>
+<td><a href="/wiki/Top-rated_United_States_television_programs_of_2002%E2%80%9303" title="Top-rated United States television programs of 2002–03">2</a>
+</td>
+<td>21.8<sup id="cite_ref-RatingsBySeason_105-9" class="reference"><a href="#cite_note-RatingsBySeason-105">[105]</a></sup>
+</td>
+<td>"<a href="/wiki/The_One_Where_No_One_Proposes" title="The One Where No One Proposes">The One Where No One Proposes</a>"
+</td>
+<td>34.0<sup id="cite_ref-BuzzFeed_106-7" class="reference"><a href="#cite_note-BuzzFeed-106">[106]</a></sup>
+</td></tr>
+<tr>
+<td scope="row"><a href="/wiki/Friends_(season_10)" title="Friends (season 10)">10</a>
+</td>
+<td>September 25, 2003
+</td>
+<td>May 6, 2004
+</td>
+<td><a href="/wiki/2003%E2%80%9304_United_States_network_television_schedule" title="2003–04 United States network television schedule">2003–04</a>
+</td>
+<td><a href="/wiki/Top-rated_United_States_television_programs_of_2003%E2%80%9304" title="Top-rated United States television programs of 2003–04">4</a>
+</td>
+<td>22.8<sup id="cite_ref-RatingsBySeason_105-10" class="reference"><a href="#cite_note-RatingsBySeason-105">[105]</a></sup>
+</td>
+<td>"<a href="/wiki/The_Last_One_(Friends)" title="The Last One (Friends)">The Last One</a>"
+</td>
+<td>52.5<sup id="cite_ref-top10_4-1" class="reference"><a href="#cite_note-top10-4">[4]</a></sup>
+</td></tr></tbody></table>
