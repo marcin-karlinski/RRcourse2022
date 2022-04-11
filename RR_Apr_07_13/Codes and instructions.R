@@ -2,11 +2,12 @@
 # Reproducible Research 2022
 # Wojciech Hardy & Lukasz Nawaro
 
-setwd("")
+setwd("C:/UW/RR/RRcourse2022/RR_Apr_07_13")
 
 # We need to load the necessary packages if we're operating through an R script.
 
 library(rmarkdown)
+library(rvest)
 
 # We can render an .Rmd document by using the render() function
 
