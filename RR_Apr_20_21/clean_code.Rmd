@@ -1,0 +1,404 @@
+# Clean code & documentation
+
+---
+
+## Why write clean code and document it?
+
+The general idea is based on [MIT PML workshop on Good coding practices for social scientists](https://github.com/akapl0/PML_Good_coding_practices).
+
+You want to make a pizza dough. Let us write a poor recipe.
+
+> Throw in some yeast, water and sugar. Mix it with flour and something to make the dough less sticky. Allow it to rest and work it to a pizza.
+
+Why is it bad?
+
+* the inputs are barely known. Olive oil makes the dough less sticky, but it is not explicitly mentioned. The quantities are unknown. Should water be cool, warm, or at boiling point? What is the optimal type of flour?
+* the process is unclear. Should you mix yeast, water and sugar? For how long should the dough be allowed to rest?
+* the result is not mentioned. Thickness? Size? You learn nothing from this recipe.
+
+That said, if you made a pizza dough recently, you would be able to follow it. If you are not experienced with Italian cuisine and forgot about olive oil, it would even be kind of helpful.
+
+The recipe should be understandable even for an inexperienced cook. But you should assume that an English-speaking person knows what 'flour' and 'work' means.
+
+Another bad recipe would be:
+
+> Mix yeast (eukaryotic, single-celled microorganisms classified as members of the fungus kingdom) with water (H<sub>2</sub>O, an inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere and the fluids of all known living organisms) and sugar (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>). Mix it with flour (powder made by grinding raw grain) and olive oil (a liquid fat obtained from olives (the fruit of Olea europaea; family Oleaceae), a traditional tree crop of the Mediterranean Basin, produced by pressing whole olives and extracting the oil). Allow it to rest and work (bring a material or mixture to a desired shape or consistency by kneading) it to a pizza.
+
+*the parts in brackets are obviously from English Wikipedia*
+
+### And regarding code directly...
+
+* you will read it later
+* other programmers will read it later
+* non-programmers may need to understand what the code is doing
+* reading is one problem; maintaining and modyfing is another one
+
+---
+
+## Big question: who's going to read it?
+
+Documentation can serve different purposes.
+
+- is it mostly about instructions for use?
+- or is it mostly about replication and verification?
+- perhaps it's about further development and contributing?
+
+Depending on what you write and where you write it (private firm? academia? open-source?) you might want to stylise your documentation and comments accordingly.
+
+It's good to have comments that explain the reasoning behind the code in any case, but documentation might be oriented towards users or collaborators or other researchers, etc.
+
+Sometimes a separate documentation is not necessary because a research article might document the whole process. Not all of the issues raised in further slides apply to all contexts.
+
+---
+
+## The importance of documentation
+
+Boeing 737 MAX was supposed to be similar in steering to its predecessors in order not to require additional training. An electronic control system was introduced to counter some unintended consequences of differences in engine power. But the pilots were not aware of such a system, as the Federal Aviation Administration allowed Boeing not to mention it.
+
+![](https://i.imgur.com/xBRw1yR.jpg)
+*horizontal stabilizer, source: Wikimedia Commons*
+
+After two planes, Lion Air flight 610 and Ethiopian Airlines flight 302 crashed, causing 346 people to die, the planes were grounded for 1.5 years in the United States and almost 3 years in China, causing massive losses: $20 billion for Boeing in direct costs and billions of dollars in lost sales. Boeing stocks tanked.
+
+The disasters and losses could have been avoided, had the company documented the plane's behavior as it should have. Pilots would then understand why the plane does not behave in a desired way -- that their inputs are being overridden by an automatic system.
+
+---
+
+## Bad comments
+
+An attempt to write comments may have been made. It does not mean that the code is indeed understandable.
+
+`x <- 2  # assign 2 to x`
+
+Thank you, but... what is `x`? You should also assume that every programmer learns the basics first, including assignment. Better:
+
+`keynesian_multiplier <- 3.5  # multiplier for the Polish economy calculated by Głębowiński & Skrzydłowski (2019)`
+
+---
+
+## Clean code in Python
+
+The official style guide in Python is [PEP 8](https://www.python.org/dev/peps/pep-0008/), while the general rules are outlined in [PEP 20 -- The Zen of Python](https://www.python.org/dev/peps/pep-0020/).
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+---
+
+## Clean code in R
+
+R does not have an official style guide. But it does have *gurus*, for example Hadley Wickham, who published a basic [guide for students](http://stat405.had.co.nz/r-style.html), there is a similar [Google guide](https://google.github.io/styleguide/Rguide.html). A longer style guide is available at the [tidyverse webpage](https://style.tidyverse.org/).
+
+The problem with these guides is that they reach completely *contradictory* conclusions. Google says that:
+
+> Do not rely on R’s implicit return feature. It is better to be clear about your intent to return() an object.
+
+But the tidyverse guide has another opinion:
+
+> Only use return() for early returns. Otherwise, rely on R to return the result of the last evaluated expression.
+
+I would suggest to be *explicit*, just as the Zen of Python guide says.
+
+---
+
+## The two most important rules about clean code
+
+1. **be consistent**
+2. **do not overcomplicate things**
+
+There any many programming horror stories I have heard. The worst offender used one-letter Greek variable names. Python allows it, as it is based on UTF-8, so does R and many other languages, but... just don't.
+
+Sometimes variable/function/class names in the local language are necessary due to technical or legal specification. If you do so, please do not mix your local language and English. `isPies` is terrible and bad practice -- `czyPies` or `czyToPies` are better.
+
+You do not have to follow all the PEP 8 rules. I do not follow them strictly either. But if you decide on a particular style for a project, keep it.
+
+---
+
+![](https://i.imgur.com/kwXyHyM.png)
+*Python does not use curly braces, but in R you could end up with something like this. You should not, especially that loops are discouraged.*
+
+---
+
+## Avoiding complex things
+
+There is a StackOverflow subpage called [CodeGolf](https://codegolf.stackexchange.com/). People submit solutions for problems in the smallest number of bytes. Let us pick a solution for [checking whether a number if a prime](https://codegolf.stackexchange.com/questions/57617/is-this-number-a-prime):
+
+`n=int(input())`
+`print([i for i in range(1,n)if n%i==0]==[1])`
+
+It works. But is it clear without any comments? Is it clear at all? Let us use another solution (still not optimized):
+
+    n=int(input())
+    
+    for i in range(1, n):
+        # If num is divisible by any number between
+        # 1 and n, it is not prime
+        if (n % i) == 0:
+            print(n, "is not a prime number")
+            break
+    else:
+        print(n, "is a prime number")
+
+The code is now much easier to understand and optimize.
+
+---
+
+## Exercise 1
+
+Consider a [FizzBuzz problem](https://codegolf.stackexchange.com/questions/58615/1-2-fizz-4-buzz). The program should write numbers from 1 to 100, separated by a newline, but multiples of 3 and of 5 should be replaced with "Fizz" and "Buzz" respectively. For numbers which are multiples of both 3 and 5 print "FizzBuzz". Here are some solutions, which are not readable:
+
+Python: `for i in range(100):print(int(i%3/2)*'Fizz'+int(i%5/4)*'Buzz'or-~i)`
+R: `x=y=1:100;y[3*x]='Fizz';y[5*x]='Buzz';y[15*x]='FizzBuzz';write(y[x],1)`
+
+Write a readable and working solution in your preferred language.
+
+---
+
+## Sample problem
+
+Consider the following code in Python: `price = (10)`. Is it a tuple or a number? Let us vote.
+
+https://www.menti.com/5rxis7bicy
+
+Regardless of what it is, the programmer did not make their intention clear. We could argue that the variable name is singular, then they wanted to make it a number. Or that they used round brackets, which means their intention was a tuple.
+
+---
+
+## Less is more
+
+In Python, at least. Let us write a function to check whether a number is greater than 10. (PEP 8: Function names should be lowercase, with words separated by underscores as necessary to improve readability.)
+
+    def greater_than_ten(number):
+        if number > 10:
+            return True
+        else:
+            return False
+            
+But we can shorten it, cannot we? If a number is not greater than 10, then the function always returns False.
+
+    def greater_than_ten(number):
+        if number > 10:
+            return True
+        return False
+        
+Even quicker:
+
+    def greater_than_ten(number):
+        return number > 10
+        
+Let us notice that the result of the comparison is a boolean. The solution is clean, short and Pythonic.
+
+Equivalent in R:
+    
+    greater_than_ten <- function(number) {
+        if (number > 10) return(TRUE)
+        else return(FALSE)
+    }
+    ###
+    greater_than_ten <- function(number) {
+        n > 10
+    }
+
+---
+
+## Do not do the same thing twice
+
+- if you repeat a set of operations more than one time, turn it into a function instead.
+- don't write multiple lines that do mostly the same and only switch one thing. Create loops to avoid repetition (over values, over elements in the list, etc.)
+- note: functions should have one purpose each. (see: [Single responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle))
+- define your functions at the start or even in a separate file/package (that gets referred to).
+- the fewer parameters, the better.
+- in Python, use classes instead of dictionaries when you associate functions with data.
+
+---
+
+## Comments
+
+- use comments a lot, but not too much.  
+- place them above or to the side (when referring to a specific line).
+- do not use comments to temporarily remove code.
+- use version control and meaningful commits.
+
+Comments should:
+
+- provide brief info on "what" **if not clear**.
+- provide additional info on "why" **if not clear**.
+- explain how it's done **if not clear**.
+
+Pick one formatting style for your comments and be consistent.
+
+---
+
+## Documentation
+
+In Python, documentation of functions is in triple quotation marks. They are called *docstrings*.
+
+    def foo():
+        """Documentation
+        string. Here you write what the foo() function is for,
+        what does it return, what are the parameters...
+        """
+    
+    print(foo.__doc__)  # why are there blank spaces?
+
+In R, .Rd files are used. Usually, generating these documentation files is easiest through *roxygen2*. In Rcpp use `//'` instead of `#'`.
+
+    #' Add together two numbers
+    #'
+    #' @param x A number
+    #' @param y A number
+    #' @return The sum of \code{x} and \code{y}
+    #' @examples
+    #' add(1, 1)
+    #' add(10, 1)
+    add <- function(x, y) {
+      x + y
+    }
+    
+To create .Rd files in for a project, use `roxygen2::roxygenise()` or `devtools::document()`. RStudio should create them automatically.
+
+---
+
+## Self-documenting code
+
+Python 3.5 introduced support for [type hints](https://docs.python.org/3/library/typing.html). The function `greeting` should take a string and return a string.
+
+    def greeting(name: str) -> str:
+        return 'Hello ' + name
+        
+Let us open Python and modify a function to accept ints, but do not change type hints. What would happen?
+
+How to make clear that a function needs a list of floats? The *typing* module changes very fast between versions, it is now possible to simply use `list[float]`.
+
+    Vector = list[float]
+
+    def scale(scalar: float, vector: Vector) -> Vector:
+        return [scalar * num for num in vector]
+
+    # typechecks; a list of floats qualifies as a Vector.
+    new_vector = scale(2.0, [1.0, -4.2, 5.4])
+    
+R has no such solution built in, but the *types* library works and is supported by RStudio. [Example from a StackOverflow answer.](https://stackoverflow.com/questions/58781871/r-programming-is-it-possible-to-declare-return-or-parameter-types-of-functions)
+
+    library(types)
+
+    myadd <- function( x = ? numeric, y = ? numeric) {
+      (x + y) ? numeric
+    }
+    myadd()
+    
+---
+
+## Exercise 2
+
+1. Write a function which takes *n* (float or integer) as a parameter and returns the largest Fibonacci number smaller than *n*. The function should be documented, with type hints, and appropriate comments.
+2. Write a function which reverses digits in an integer number (for example 7245 -> 5427). The function should be documented, with type hints, and appropriate comments.
+
+
+---
+
+## Data, files, encoding
+
+- come up with a structure for your files - don't just put them all in the same folder. Various approaches possible (e.g. [this one](https://coderefinery.github.io/reproducible-research/organizing-projects/), but consistency is key. I personally use 3 directories: `in/` to store raw data, `out/` for results, and `src/` for codes. Sometimes I add `assets/` for files which are necessary, but are not processed in `src/`.
+- avoid language-specific characters in names, labels, paths, etc. Use UTF-8 to minimize problems.
+- use file formats that can be accessed by other software, e.g. .csv.
+- try to avoid doing things by hand - automate as much as possible.
+
+---
+
+## Values
+
+- code the values consistently. E.g. always 0/1 or always True/False (not a mix).
+- if software allows it - add labeling.
+- ensure proper formatting/type (e.g. numeric vs string).
+
+*how to ensure proper types in .csv? Using .pickle, it is easy, but cannot be accessed by other software...*
+
+---
+
+## Exercise 3
+
+Write names of all US states in UPPERCASE and lowercase to a file. Write how to do this without typing all 50 names manually. Separate code from input and from output.
+
+---
+
+## Clean data
+
+Clean code is important; but you are *data* scientists and deal with data. One crucial paper is ["Tidy Data" by Hadley Wickham](https://vita.had.co.nz/papers/tidy-data.pdf), which you are strongly encouraged to read.
+
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each type of observational unit forms a table.
+
+(yes, if you know SQL, this is 3rd normal form -- 3NF)
+
+In other words, you should not use wide tables/DataFrames, long are better. In *pandas*, the `melt` function transforms wide to long type. Additionally, you should not store everything in one table, but rather use multiple tables and `merge` them when necessary. R has similar functions.
+
+---
+
+## Exercise 4
+
+The code below is of poor quality. Improve it (you may rewrite it to R, if you find it more convenient). [Data (StudentsPerfomance.csv) is available on Kaggle.](https://www.kaggle.com/spscientist/students-performance-in-exams)
+
+*note: the code contains comments to make you understand what you should do, even if you are not very familiar with Python. They may not be the best comments possible...*
+    
+```
+import pandas as pd
+
+# read the file with data
+studPerformance = pd.read_csv('StudentsPerformance.csv')
+
+# the dataframe contains data about 5 groups
+stud_a = studPerformance.loc[studPerformance['race/ethnicity'] == 'group A']
+stud_b = studPerformance.loc[studPerformance['race/ethnicity'] == 'group B']
+stud_c = studPerformance.loc[studPerformance['race/ethnicity'] == 'group C']
+stud_d = studPerformance.loc[studPerformance['race/ethnicity'] == 'group D']
+stud_e = studPerformance.loc[studPerformance['race/ethnicity'] == 'group E']
+
+# print mean math score for each group
+평균groupa = stud_a['math score'].mean()
+print(평균groupa)
+
+평균groupb = stud_b['math score'].mean()
+print(평균groupb)
+
+평균groupc = stud_c['math score'].mean()
+print(평균groupc)
+
+평균groupd = stud_d['math score'].mean()
+print(평균groupd)
+
+평균groupe = stud_e['math score'].mean()
+print(평균groupe)
+
+# print mean math, reading, and writing scores for students who completed the test preparation course and their parent obtained a degree
+degree_test = studPerformance.loc[(studPerformance['test preparation course'] == 'completed') & (studPerformance['parental level of education'].isin(["associate's degree", "bachelor's degree", "master's degree"]))]
+print('math', degree_test['math score'].mean())
+print('reading', degree_test['reading score'].mean())
+print('writing', degree_test['writing score'].mean())
+
+import matplotlib.pyplot as plt
+
+# plot the histogram of math scores divided by reading scores for each student
+plt.hist(studPerformance['math score'] / studPerformance['reading score'])
+plt.title('ratio')
+plt.show()
+plt.close()
+```
