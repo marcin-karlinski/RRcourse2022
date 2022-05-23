@@ -15,7 +15,7 @@ library(meta)
 library(metafor)
 library(dplyr)
 
-setwd("")
+setwd("C:/UW/RR/RRcourse2022")
 ```
 
 ## Metaanalysis
